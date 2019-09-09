@@ -1,0 +1,28 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "This is an api for news app which will be in vue",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ivek/news-api.git"
+  },
+  "keywords": [
+    "news",
+    "api"
+  ],
+  "author": "ufcfy.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ivek/news-api/issues"
+  },
+  "homepage": "https://github.com/8ivek/news-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.18.4"
+  }
+}
