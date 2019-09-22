@@ -2,25 +2,31 @@
   "development": {
     "username": "root",
     "password": null,
-    "database": "database_development",
+    "database": "news_database_development",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "define" : {
+      "underscored": true
+    }
   },
   "test": {
     "username": "root",
     "password": null,
-    "database": "database_test",
+    "database": "news_database_test",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "define" : {
+      "underscored": true
+    }
   },
   "production": {
     "username": "root",
     "password": null,
-    "database": "database_production",
+    "database": "news_database_production",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "define" : {
+      "underscored": true
+    }
   }
 }
